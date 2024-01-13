@@ -51,3 +51,15 @@ body {
 .container3 {
   width: 300px;
 }
+
+@media screen and (max-width: 600px) {
+  .container2 {
+    width: 1300px;
+  }
+
+  .container2 a p {
+    font-size: 1rem;
+    padding: 0;
+    margin: 20px;
+  }
+}
